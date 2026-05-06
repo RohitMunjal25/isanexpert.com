@@ -1,13 +1,12 @@
 export const siteTaskDefinitions = [
   {
-    key: 'listing',
-    label: 'Listings',
-    route: '/listings',
-    description:
-      'Structured profiles for clinics, studios, agencies, and regional operators—category, geography, and contact paths in one place.',
-    contentType: 'listing',
-    enabled: true,
-  },
+  key: 'listing',
+  label: 'Business Listing',
+  route: '/listing',
+  description: 'Curated business listing content.',
+  contentType: 'listing',
+  enabled: true,
+},
   {
     key: 'classified',
     label: 'Classifieds',
